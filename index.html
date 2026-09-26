@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>اشکان مزاری | عکس و ویدیو</title>
+  <meta name="description" content="سایت شخصی اشکان مزاری؛ مجموعه عکس‌ها و ویدیوهای من.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="brand"><div class="logo">A</div><div><b>اشکان مزاری</b><small>Ashkan Mazari</small></div></div>
+  <nav><a href="#home">صفحه اصلی</a><a href="#photos">عکس‌ها</a><a href="#videos">ویدیوها</a><a href="#about">درباره من</a></nav>
+  <a class="admin" href="#admin">ورود به پنل مدیریت</a>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <span class="eyebrow">سایت شخصی</span>
+    <h1>اشکان مزاری</h1>
+    <p>جایی برای ثبت لحظه‌ها، تصاویر و ویدیوهای من</p>
+    <div class="search"><input id="search" placeholder="در عکس‌ها و ویدیوها جستجو کنید..."><button onclick="searchMedia()">جستجو</button></div>
+  </div>
+</section>
+
+<section class="categories">
+  <a href="#photos">📷 عکس‌ها</a>
+  <a href="#videos">🎬 ویدیوها</a>
+  <a href="#photos">🏔️ طبیعت</a>
+  <a href="#photos">🌆 شهر و سفر</a>
+  <a href="#videos">⭐ ویژه‌ها</a>
+</section>
+
+<section id="photos" class="section">
+  <div class="section-head"><h2>جدیدترین عکس‌ها</h2><a href="#">مشاهده همه ←</a></div>
+  <div class="grid" id="photoGrid">
+    <article class="card" data-title="کوهستان"><div class="media placeholder">عکس کوهستان</div><h3>کوهستان</h3><small>مجموعه طبیعت</small></article>
+    <article class="card" data-title="غروب دریا"><div class="media placeholder">غروب دریا</div><h3>غروب دریا</h3><small>لحظه‌های آرام</small></article>
+    <article class="card" data-title="جنگل"><div class="media placeholder">جنگل</div><h3>جنگل</h3><small>طبیعت</small></article>
+  </div>
+</section>
+
+<section id="videos" class="section">
+  <div class="section-head"><h2>جدیدترین ویدیوها</h2><a href="#">مشاهده همه ←</a></div>
+  <div class="grid" id="videoGrid">
+    <article class="card" data-title="سفر به طبیعت"><div class="media placeholder">▶ سفر به طبیعت</div><h3>سفر به طبیعت</h3><small>ویدیوی جدید</small></article>
+    <article class="card" data-title="تهران در شب"><div class="media placeholder">▶ تهران در شب</div><h3>تهران در شب</h3><small>شهر و سفر</small></article>
+    <article class="card" data-title="صدای آب"><div class="media placeholder">▶ صدای آب</div><h3>صدای آب</h3><small>طبیعت</small></article>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>درباره من</h2>
+  <p>به سایت شخصی اشکان مزاری خوش آمدید. اینجا مجموعه‌ای از عکس‌ها و ویدیوهای من قرار می‌گیرد.</p>
+</section>
+
+<section id="admin" class="admin-box">
+  <h2>پنل مدیریت</h2>
+  <p>این بخش در نسخه نهایی با ورود امن محافظت می‌شود و فقط صاحب سایت می‌تواند عکس و ویدیو آپلود کند.</p>
+  <button onclick="alert('در مرحله بعد، ورود امن و آپلود واقعی را وصل می‌کنیم.')">آپلود محتوا</button>
+</section>
+</main>
+
+<footer><b>اشکان مزاری</b><span>© تمامی حقوق محفوظ است.</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
